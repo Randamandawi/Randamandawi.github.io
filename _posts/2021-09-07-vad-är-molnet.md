@@ -67,3 +67,13 @@ Molntjänster delas in i tre nivåer:
 * Det ät viktigt med en bra migrering från början. En dålig migrering kan leda till att systemet blir osäkrare än tidigare, eller ge    effekten av att bli en dyrare tjänst som fungerar långsammare 
 
 * Informationen/ data sparas på någon annans dator och det är därför viktigt att göra en bedömning av vad för företagsinformation som kan sparas i molnet och vad som inte kan göra det 
+
+### Lite om priser....
+
+Förutom fördelarna och nackdelarna så har jag med en klasskamrat tittat på priserna av de olika molnleverantören. Vi har kollat på Azure, Google cloud, Amazon Web Services(AWS) och även två mindre leverantören som heter Binero och CityCloud.  
+
+AWS, Binero och CityCloud erbjuder bara löpande avtal. CityCloud och Azure har högst pris för ett löpande avtal medans AWS (Frankfurt) har lägste pris med 49 USD i månaden. Värt att notera att sammas AWS avtal med en server i London koster mer med 60 USD i månaden! Ska man ta ettårsavtal då är Google cloud billigast. Det gäller även för treårsavtal.  
+
+Vill man betala per sekund så är det möjligt hos Google cloud som tillåter det på all deras paket. AWS erbjuder att betala per sekond bara i samband med Linux medans Azure har det med bara Containers-based lösningar.  
+
+ 
