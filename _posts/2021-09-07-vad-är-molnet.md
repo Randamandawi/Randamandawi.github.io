@@ -5,9 +5,11 @@ categories:
   - blog
 tags:
   - molnet
-  - Amazon
+  - Amazon web services
   - Microsoft
-  - Google
+  - Google cloud
+  - Azure
+  - AWS
 
 ---
 
@@ -60,9 +62,9 @@ Molntjänster delas in i tre nivåer:
 
 * Det finns en risk att man förlorar tillgång till molntjänsterna om man glömmer bort en betalning till molnleverantören  
 
-* Använder företaget många olika molnlösningar kan systemkostnaden ändå bli höga 
+* Använder företaget många olika molnlösningar så kan systemkostnaden ändå bli höga 
 
-* Det kan vara svårt välja rätt leverantör med tanke på skalbarhet och säkerhet som erbjuds 
+* Det kan vara svårt att välja rätt leverantör med tanke på skalbarhet och säkerhet som erbjuds 
 
 * Det ät viktigt med en bra migrering från början. En dålig migrering kan leda till att systemet blir osäkrare än tidigare, eller ge    effekten av att bli en dyrare tjänst som fungerar långsammare 
 
