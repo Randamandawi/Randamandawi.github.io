@@ -30,51 +30,41 @@ Molntjänster delas in i tre nivåer:
 
 * Tillgänglighet var som helst, när som helst under förutsättning att det finns tillgång till internet 
 
-* Man har en back-up av sina värdefulla data som till exempel bilder och dokument. Dessutom slipper man ansvaret för dyra, och eventuellt krångliga backuplösningar 
+* Man kan ha en speglad kopia av miljön som back-up och möjliggör snabb återställning utan avbrott eller förlorad värdefull data. Dessutom slipper man ansvaret för dyra, och eventuellt krångliga backuplösningar 
 
 * Man slipper investera i egna lokala servrar 
 
 * Skalbarhet som gör att man kan anpassa molnlösningen efter hand som ens behov förändras och att man endast betalar för de serverresurser som ens företag faktiskt behöver 
 
-* Tjänste- och systemleverantörerna ansvarar till 100 procent för dataskydd, uppdateringar och dataintegritet i molnet 
+* Tjänste- och systemleverantörerna kan ansvara för stor del av dataskydd, uppdateringar och dataintegritet i molnet 
 
-* Molnet innebär också att man kan låta kollegor få tillgång till det man jobbar med samt bestämma i vilken grad andra ska kunna redigera 
+* Det är mer förutsägbart att räkna på med fast månads- eller årskostnad, vilket gör det lättare att budgetera för verksamhet och minskning av dolda kostnader som rör drift och underhåll av hårdvara 
 
-* Man kan slippa göra om arbete som försvunnit för att ett program har hängt sig  
+* Låga ingångskostnader på hårdvara och mer kontroll på licensierade operativsystem kostnader 
 
-* Smartare tjänster som anpassar sig efter en användares profil och hur hen tidigare använt den aktuella tjänsten 
-
-* Versionshantering och möjlighet att backa till tidigare versioner 
-
-* Ju mer data som lagras i molnet, desto mer kan automatiseras. Hälften av administrationstiden kan sparas bort 
-
-* Man får en fast månads- eller årskostnad, vilket gör det lättare att budgetera 
-
-* Låga ingångskostnader på hårdvara och mjukvara 
-
-* Enkelt och snabbt att implementera nya IT-lösningar 
+* Enkelt och snabbt att komma igång med i virtuella cloud miljöer och allokera virtuella resurser exempelvis tilldelning av virtuella cpuer, ram och diskutrymme 
 
 ### Nackdelar 
 
 * Man är beroende av en fungerande internetanslutning  
 
-* Man är beroende av molnleverantörs pålitlighet 
+* Man är beroende av molnleverantörs pålitlighet, hårdvara och redundans
 
 * Det finns en risk att man förlorar tillgång till molntjänsterna om man glömmer bort en betalning till molnleverantören  
 
-* Använder företaget många olika molnlösningar så kan systemkostnaden ändå bli höga 
+* Det kan vara svårt för företag att välja bland eller på sikt räkna hem vinsten med olika molnlösningar och kostnaden kan initialt verka hög jämfört med egen inköpt hårdvara och egen hostad server 
 
-* Det kan vara svårt att välja rätt leverantör med tanke på skalbarhet och säkerhet som erbjuds 
+* Det kan vara krångligt att jämföra och välja rätt leverantör med tanke på skalbarhet och säkerhet som erbjuds 
 
-* Det ät viktigt med en bra migrering från början. En dålig migrering kan leda till att systemet blir osäkrare än tidigare, eller ge    effekten av att bli en dyrare tjänst som fungerar långsammare 
+* Migrering eller flytt från egen uppsatt server till molnlösning kan vara en utmaning 
 
-* Informationen/ data sparas på någon annans dator och det är därför viktigt att göra en bedömning av vad för företagsinformation som kan sparas i molnet och vad som inte kan göra det 
+* Företagsinformation som sparas på någon annans dator ställer andra krav på säkerhet och tredjepartshantering 
 
 ### Lite om priser....
 
 Förutom fördelarna och nackdelarna så har jag med en klasskamrat tittat på priserna av de olika molnleverantören. Vi har kollat på Azure, Google cloud, Amazon Web Services(AWS) och även två mindre leverantören som heter Binero och CityCloud.  
 
-AWS, Binero och CityCloud erbjuder bara löpande avtal. CityCloud och Azure har högst pris för ett löpande avtal medans AWS (Frankfurt) har lägste pris med 49 USD i månaden. Värt att notera att sammas AWS avtal med en server i London koster mer med 60 USD i månaden! Ska man ta ettårsavtal då är Google cloud billigast. Det gäller även för treårsavtal.  
+AWS, Binero och CityCloud erbjuder bara löpande avtal. CityCloud och Azure har högst pris för ett löpande avtal medans AWS (Frankfurt) har lägste pris med 49 USD i månaden. Värt att notera att samma AWS avtal med en server i London koster mer med 60 USD i månaden! Ska man ta ettårsavtal då är Google cloud billigast. Detta gäller även för treårsavtal där Google Cloud framstår som billigast.  
 
 Vill man betala per sekund så är det möjligt hos Google cloud som tillåter det på all deras paket. AWS erbjuder att betala per sekond bara i samband med Linux medans Azure har det med bara Containers-based lösningar.  
 
