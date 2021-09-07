@@ -23,8 +23,31 @@ Molntjänster delas in i tre nivåer:
 * PaaS (plattform som tjänst). Exempel på PaaS är databaser, webbservrar och utvecklingsverktyg
 * SaaS (mjukvara som tjänst).SaaS är tjänster som e-postverktyg, Office 365 och Google Education
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Fördelar 
+
+* Tillgänglighet var som helst, när som helst under förutsättning att det finns tillgång till internet 
+
+* Man har en back-up av sina värdefulla data som till exempel bilder och dokument. Dessutom slipper man ansvaret för dyra, och eventuellt krångliga backuplösningar 
+
+* Man slipper investera i egna lokala servrar 
+
+* Skalbarhet som gör att man kan anpassa molnlösningen efter hand som ens behov förändras och att man endast betalar för de serverresurser som ens företag faktiskt behöver 
+
+* Tjänste- och systemleverantörerna ansvarar till 100 procent för dataskydd, uppdateringar och dataintegritet i molnet 
+
+* Molnet innebär också att man kan låta kollegor få tillgång till det man jobbar med samt bestämma i vilken grad andra ska kunna redigera 
+
+* Man kan slippa göra om arbete som försvunnit för att ett program har hängt sig  
+
+* Smartare tjänster som anpassar sig efter en användares profil och hur hen tidigare använt den aktuella tjänsten 
+
+* Versionshantering och möjlighet att backa till tidigare versioner 
+
+* Ju mer data som lagras i molnet, desto mer kan automatiseras. Hälften av administrationstiden kan sparas bort 
+
+* Man får en fast månads- eller årskostnad, vilket gör det lättare att budgetera 
+
+* Låga ingångskostnader på hårdvara och mjukvara 
+
+* Enkelt och snabbt att implementera nya IT-lösningar 
