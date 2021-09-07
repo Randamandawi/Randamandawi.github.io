@@ -51,3 +51,19 @@ Molntjänster delas in i tre nivåer:
 * Låga ingångskostnader på hårdvara och mjukvara 
 
 * Enkelt och snabbt att implementera nya IT-lösningar 
+
+### Nackdelar 
+
+* Man är beroende av en fungerande internetanslutning  
+
+* Man är beroende av molnleverantörs pålitlighet 
+
+* Det finns en risk att man förlorar tillgång till molntjänsterna om man glömmer bort en betalning till molnleverantören  
+
+* Använder företaget många olika molnlösningar kan systemkostnaden ändå bli höga 
+
+* Det kan vara svårt välja rätt leverantör med tanke på skalbarhet och säkerhet som erbjuds 
+
+* Det ät viktigt med en bra migrering från början. En dålig migrering kan leda till att systemet blir osäkrare än tidigare, eller ge    effekten av att bli en dyrare tjänst som fungerar långsammare 
+
+* Informationen/ data sparas på någon annans dator och det är därför viktigt att göra en bedömning av vad för företagsinformation som kan sparas i molnet och vad som inte kan göra det 
