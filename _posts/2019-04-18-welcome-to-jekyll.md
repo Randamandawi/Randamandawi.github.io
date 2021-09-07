@@ -1,26 +1,27 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "Vad är molnet?"
+date: 2021-09-07T15:34:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - molnet
+  - Amazon
+  - Microsoft
+  - Google
+
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Jag tänker att jag börjar min blogg med att skriva om vad molnet är...
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Moln-/cloudtjänster innebär att man sparar sina dokument, bilder och annan data på en server på nätet i stället för på sin dator. Oftast finns dem i stora datahallar hos stora internationella företag som Microsoft, Apple eller Amazon.  
 
-Jekyll also offers powerful support for code snippets:
+Tjänsterna erbjuder olika funktioner och det som utmärker en molntjänst är att en användare har åtkomst till tjänsterna från olika typer av enheter och att det endast krävs en internetuppkoppling och inloggning för att det ska fungera. 
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+Molntjänster delas in i tre nivåer:
+
+* IaaS (infrastruktur som tjänst). Exempel på IaaS är virtuella maskiner, servrar, lagring och backup
+* PaaS (plattform som tjänst). Exempel på PaaS är databaser, webbservrar och utvecklingsverktyg
+* SaaS (mjukvara som tjänst).SaaS är tjänster som e-postverktyg, Office 365 och Google Education
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
