@@ -21,7 +21,7 @@ Som bilden nedan illustrerar så är en CI pipeline en serie steg som består av
 
 ### Implementering CI pipeline 
 
-Vi har implementerat en CI pipeline på vår första Spacepark projekt. I Github började vi med att forka projektet. Efter det valde vi ”Actions” och sen ”New Workflow”. Från de olika mallar så valde vi .Net mallen för att hålla det enkelt nu i början. I ”yml” filen behövde vi ändra vad som gör att pipeline triggas och vi valde ”push” enligt uppgiften. Vi har även ändrat vid ”branches” genom att låta det tomt efter ”branches” så det blir default vilket innebär att det ska kolla på alla branches. I ”jobs” behövde vi lägga till sökvägen till SpacePark.sln för att den ska hitta vad som skall byggas och testas.
+Vi har implementerat en CI pipeline på vår första Spacepark projekt. I Github började vi med att forka projektet. Efter det valde vi ”Actions” och sen ”New Workflow”. Från de olika mallar så valde vi .Net mallen för att hålla det enkelt nu i början. I ”yml” filen behövde vi ändra vad som gör att pipeline triggas och vi valde ”push” enligt uppgiften. Vi har även ändrat vid ”branches” genom att låta det tomt efter ”branches” eller ta bort det helt så att det blir default vilket innebär att det ska kolla på alla branches. I ”jobs” behövde vi lägga till sökvägen till SpacePark.sln för att den ska hitta vad som skall byggas och testas.
 
 ### Beskrivning av min GitHub action workflow YAML fil
 ![yml file](/assets/images/yml2.png)
