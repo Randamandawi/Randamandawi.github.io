@@ -10,7 +10,7 @@ tags:
  
 ---
 
-Continuous Integration (CI), eller kontinuerlig integration är en programutvecklingsmetod där utvecklingsteamet slår samman kodändringar centralt flera gånger om dagen. Varje kodändring (push eller pull) gör att det sker en automatisk bygg och test för att upptäcka fel så tidigt som möjligt. På så vis kan man snabbt och tidigt få en signal på om något i koden är fel eller behöver göras om. Själva testfasen fungerar därmed som en kvalitetssäkring av den slutgiltiga produkten.
+Continuous Integration (CI), eller kontinuerlig integration är en programutvecklingsmetod där utvecklingsteamet slår samman kodändringar centralt och med täta mellanrum. Varje kodändring (push eller pull) gör att det sker en automatisk bygg och test för att upptäcka fel så tidigt som möjligt. På så vis kan man snabbt och tidigt få en signal på om något i koden är fel eller behöver göras om. Själva testfasen fungerar därmed som en kvalitetssäkring av den slutgiltiga produkten.
 
 Men vad är en pipeline? Inom datavetenskap är en datarörledning – oftare kallad en rörledning – en serie steg som utför fördefinierade åtgärder på tillhandahållna data eller kod. Varje utgång från ett steg blir ingången till nästa steg i rörledningen. Dessa steg kan initieras efter varandra eller samtidigt. Målet med en pipeline är att automatisera en uppsättning repetitiva processer för att spara tid och öka precisionen.
 
