@@ -28,6 +28,8 @@ Vi har implementerat en CI pipeline på vår första Spacepark projekt. I Github
 
 
 ### Källor
-[Wallarm](https://www.wallarm.com/what/what-is-ci-cd-concept-how-can-it-work)
-[Tirupati](https://tirupati-tour-packages.com/sv/vad-ar-en-ci-cd-pipeline/)
-[Github](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+- [Wallarm](https://www.wallarm.com/what/what-is-ci-cd-concept-how-can-it-work)
+
+- [Tirupati](https://tirupati-tour-packages.com/sv/vad-ar-en-ci-cd-pipeline/)
+
+- [Github](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
