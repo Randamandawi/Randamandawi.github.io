@@ -17,4 +17,4 @@ Först vill jag börja med att förklara vad Continuous Integration (CI), eller 
 
 
 ![CI pipeline](assets/images/CI.jpg)
-![CI pipeline](assets/images/CI.jpg)
+![CI pipeline](/assets/images/CI.png)
