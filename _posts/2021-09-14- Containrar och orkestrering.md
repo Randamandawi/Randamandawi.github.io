@@ -18,3 +18,25 @@ Sedan har jag manuellt skapat en dockerignore fil som ser ut som på bilden neda
 ![Dockerignore](/assets/images/dockerignore.png)
 
 Sen körde jag i PoweShell ”build -t webapp .” Jag har ändrat namnet till webapp för att göra det lättare och med det här steget så har jag skapat min docker image. Genom att klistra http://localhost:8080 i min webbläsare har fått bekräftat att min container kör vilket den gjorde. 
+
+### Beskrivning av min docker fil
+
+För att få innehåll är det första vi behöver definiera är en image som vi vill basera den på. Vi måste också ange en fungerande working directory där vi vill att filerna ska hamna i containern. Vi gör det med kommandot FRÅN och WORKDIR. 
+![Dockerfile](/assets/images/dockerfile1.png)
+
+
+På bilden nedan så kopierar vi projektfilen som slutar på .csproj. Dessutom anropar vi ”dotnet restore” för att säkerställa att vi installerar alla dependencies
+![Dockerfile](/assets/images/dockerfile2.png)
+
+Sedan, vi kopierar app filerna och byggar appen
+![Dockerfile](/assets/images/dockerfile3.png)
+
+Här anger vi igen vår image och working directory
+![Dockerfile](/assets/images/dockerfile4.png)
+
+Det är dock en skillnad, den här gången vill vi kopiera våra byggda filer till app/out
+![Dockerfile](/assets/images/dockerfile5.png)
+
+Slutligen lägger vi till ett kommando för att ange hur vi startar vår app. Vi gör det med kommandot ENTRYPOINT
+![Dockerfile](/assets/images/dockerfile6.png)
+
