@@ -28,7 +28,7 @@ För att få innehåll är det första vi behöver definiera är en image som vi
 På bilden nedan så kopierar vi projektfilen som slutar på .csproj. Dessutom anropar vi ”dotnet restore” för att säkerställa att vi installerar alla dependencies
 ![Dockerfile](/assets/images/dockerfile2.png)
 
-Sedan, vi kopierar app filerna och byggar appen
+Sedan, kopierar vi app filerna och byggar appen
 ![Dockerfile](/assets/images/dockerfile3.png)
 
 Här anger vi igen vår image och working directory
