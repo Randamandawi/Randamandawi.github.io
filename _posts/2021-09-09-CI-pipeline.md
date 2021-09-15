@@ -1,5 +1,5 @@
 ---
-title: "Blogg 02: Vad är CI pipeline?"
+title: "Vad är CI pipeline?"
 date: 2021-09-07T15:34:30-04:00
 categories:
   - blog
