@@ -1,5 +1,5 @@
 ---
-title: "Blogg 03: Containrar och orkestrering"
+title: "Containrar och orkestrering"
 date: 2021-09-14T15:34:30-04:00
 categories:
   - blog
@@ -17,7 +17,7 @@ I Visual Studio Code har jag manuellt skapat en Dockerfile. I den har jag klistr
 Sedan har jag manuellt skapat en dockerignore fil som ser ut som på bilden nedan:
 ![Dockerignore](/assets/images/dockerignore.png)
 
-Sen körde jag i PoweShell ”build -t webapp .” Jag har ändrat namnet till webapp för att göra det lättare och med det här steget så har jag skapat min docker image. Genom att klistra http://localhost:8080 i min webbläsare har fått bekräftat att min container kör vilket den gjorde. 
+Sen körde jag i PoweShell ”build -t webapp .” Jag har ändrat namnet till webapp för att göra det lättare och med det här steget så har jag skapat min docker image. Genom att klistra http://localhost:8080 i min webbläsare har jag fått bekräftat att min container kör. 
 
 ### Beskrivning av min docker fil
 
@@ -39,4 +39,12 @@ Det är dock en skillnad, den här gången vill vi kopiera våra byggda filer ti
 
 Slutligen lägger vi till ett kommando för att ange hur vi startar vår app. Vi gör det med kommandot ENTRYPOINT
 ![Dockerfile](/assets/images/dockerfile6.png)
+
+### Beskrivning av min github pipeline 
+För att skapa min github pipeline så har jag följt den [här](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21#0075) guiden och detta innebär att jag skapade en pipeline som var baserad på Publish Docker Container mallen i github workflow. Den har tyvärr inte funkat och jag fick ersätta den med exemplet Stephan hade lagt under uppgift 3. För att få den att funka så fick jag ändra mitt användarnamn på github till små bokstäver. 
+
+![Github pipeline](/assets/images/githubpipeline.png)
+
+### Hemlisar 
+Först skapade jag en token under mina kontoinställningar. Sen efter att ha frågat en klasskamrat så har jag förstått att man ska använda { { github.actor } } och { { secrets.GITHUB_TOKEN } } för att hålla användarnamn och lösenord hemligt. På detta sätt så skapar Github en github token för repot. Så jag behövde inte använda mig av den token jag har skapat och inte hellre göra något med ”Secrets” som finns på repo settings. 
 
