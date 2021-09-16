@@ -19,10 +19,13 @@ När man refererar till serverless så är begreppet FaaS (Function as a service
 ### kalkylator
 
 Jag började min kalkylator i Visual Studio och valde ”Azure function” mallen. I koden har jag tagit bort ”string name” och lagt till 2 ”doubles” som på bilden.
+
 ![Koden](/assets/images/code.png)  
 
-Dem ”doubles” bli parsade med ”double.TryParse(req.Query["first"], out first)” för att inte tillåta att användaren kan skicka nåt annat än en siffra som till exempel en bokstav eller ett annat tecken för att det returneras 0. ”String sum” har jag också lagt till och jag byggde funktionen. Efter applikationen byggde klart så har jag testat den i lokalt. Jag gick sen till Azure för att skapa ”Resource group” och en ”Function App” (bara skalet) för att kunna publicera min app från Visual Studio. Med Azure URL så har jag testat applikationen i båda Visual Studio code och på Azure som på bilden nedan. 
+Dem ”doubles” bli parsade med ”double.TryParse(req.Query["first"], out first)” för att inte tillåta att användaren kan skicka nåt annat än en siffra som till exempel en bokstav eller ett annat tecken för att det returneras 0. ”String sum” har jag också lagt till och jag byggde funktionen. Efter applikationen byggde klart så har jag testat den i lokalt. Jag gick sen till Azure för att skapa ”Resource group” och en ”Function App” (bara skalet) för att kunna publicera min app från Visual Studio. Med Azure URL så har jag testat applikationen i båda Visual Studio code och på Azure som på bilden nedan.
+
 ![Test 1](/assets/images/testazure.png)
+
 ![Test 2](/assets/images/testazure2.png)
 
 ### Källor 
