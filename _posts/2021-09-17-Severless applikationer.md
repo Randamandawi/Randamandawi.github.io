@@ -26,7 +26,14 @@ Dem ”doubles” bli parsade med ”double.TryParse(req.Query["first"], out fir
 
 ![Test 1](/assets/images/testazure.png)
 
+Vid inmatning av # så får användaren en 0 tillbaka
 ![Test 2](/assets/images/testazure2.png)
+
+
+
+### Säkerhet
+
+Efter en genomgång av OWASPs top tio lisa så har jag konstaterat att injection och Cross-Site Scripting (XSS) kan hota min applikations säkerhet. Injection blir mer aktuellt om jag skulle ha haft ett inloggningssystem eller databas kopplad till min applikation. Indatat för min applikation har jag begränsat till bara siffror, jag har ingen känslig data in min kod och jag har inget behöv av att autentisera användare vilket gör risken för en injection liten. Det finns också en risk för Cross-Site Scripting om jag skulle till exempel har visat ett felmeddelande till användaren som går att manipulera av en hackare i syfte att försöka dirigera om webbläsaren till en fientlig webbsida. Min applikation kräver ingen inloggning vilket minimerar risken att den fientliga webbsidan begär inloggningsinformation eller annan information från användaren. 
 
 ### Källor 
 - [Infozone](https://www.infozone.se/2021/06/21/vad-ar-serverless/)
