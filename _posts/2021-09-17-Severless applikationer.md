@@ -30,5 +30,6 @@ Dem ”doubles” bli parsade med ”double.TryParse(req.Query["first"], out fir
 
 ### Källor 
 - [Infozone](https://www.infozone.se/2021/06/21/vad-ar-serverless/)
+- [OWASP Top 10](https://owasp.org/www-pdf-archive/OWASP-Top-10-Serverless-Interpretation-en.pdf)
 
 
