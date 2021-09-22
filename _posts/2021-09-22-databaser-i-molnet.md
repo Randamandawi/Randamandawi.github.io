@@ -11,7 +11,10 @@ tags:
 
 Min applikation sparar ToDoItems som består av en id, namn och en kategori. Det går att visa en Item genom att söka på kategori eller namn. 
 
-Jag började bygga min ”Azure function/http trigger” i Visual Studio Code och har connectad den med ComosDb. Alltså databasen som jag har skapat på Azure portalen efter att jag skapade database resource group. När jag försökte bygga den så fick jag ett fel och efter att Stephan och jag har öppnat applikationen i Visual Studio så blev det tydligt att felet beror på en NuGet package som saknades. 
+Jag började bygga min ”Azure function/http trigger” i Visual Studio Code och har connectat den med ComosDb. Alltså databasen som jag har skapat på Azure portalen efter att jag skapade database resource group. Deploy av applikationen har jag gjort i Visual Studio Code som bilden nedan visar.
+![Deploy](/assets/images/deploy.png)
+
+När jag försökte bygga den så fick jag ett fel och efter att Stephan och jag har öppnat applikationen i Visual Studio så blev det tydligt att felet beror på en NuGet package som saknades. 
 
 Jag bestämde mig att jobba vidare i Visual Studio och fick nedanstående applikationen byggd utan fel. 
 ![app](/assets/images/VSoK.png)  
