@@ -41,11 +41,11 @@ Koden till frontend
 
 ![Frontend get](/assets/images/front.png)
 
-Skapat en from och kopplat den till post metoden (på rad 8) så det blir view med rätt metod. 
+Skapat en from och kopplat den till post metoden (på rad 8) så det blir rätt view med rätt metod. 
 
 ![Frontend put](/assets/images/front2.png)
 
-Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR) som jad hade skapat.
+Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR) som jag hade skapat.
 
 ![ACR](/assets/images/acr.png)
  
