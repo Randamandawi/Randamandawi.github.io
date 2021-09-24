@@ -31,22 +31,27 @@ I och med jag hade många problem med att få connection med databasen för för
 
 ![Get metoden](/assets/images/indexcode.png)
 
-För att fa fram alla to-do items från databasen så har jag använt koden från [Codegrepper](https://www.codegrepper.com/code-examples/csharp/cosmos+db+get+all+items+in+container)
+För att fa fram alla to-do items från databasen så har jag använt koden från [Codegrepper](https://www.codegrepper.com/code-examples/csharp/cosmos+db+get+all+items+in+container) och skapat en lista för att lägga in alla items som har blivit skapade efter foreach loopen. 
 
 Logiken i "AddItems" sida för att lägga till nya items.
+
 ![Put metoden](/assets/images/put.png)
 
 Koden till frontend
 
 ![Frontend get](/assets/images/front.png)
 
+Skapat en from och kopplat den till post metoden (på rad 8) så det blir view med rätt metod. 
+
 ![Frontend put](/assets/images/front2.png)
 
-Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR)
+Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR) som jad hade skapat.
 
 ![ACR](/assets/images/acr.png)
  
- Till slut så har jag deployat docker image till Azure app genom Visual Studio med hjälpp av den [guiden](https://code.visualstudio.com/docs/containers/app-service)
+ Till slut så har jag deployat docker image till Azure app genom Visual Studio med hjälp av [guiden](https://code.visualstudio.com/docs/containers/app-service)
+
+ ![Sida](/assets/images/mywebsite.png)
 
 ### Källor
 
