@@ -37,3 +37,8 @@ För att fa fram alla to-do items från databasen så har jag använt koden frå
 Logiken i "AddItems" sida för att lägga till nya items.
 ![Put metoden](/assets/images/put.png)
 
+Koden till frontend
+
+![Frontend get](/assets/images/front.png)
+
+![Frontend put](/assets/images/front2.png)
