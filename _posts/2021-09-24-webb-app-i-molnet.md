@@ -30,3 +30,5 @@ Efter att användaren har lagt till en ny item och klickar på Submit så blir h
 I och med jag hade många problem med att få connection med databasen för förra uppgiften så har jag för det första tagit bort den gamla databasen och skapat en ny. Och för det andra så har jag gjort en ful lösning som på bilden nedan (speciellt rad 27 och 29) för att bli connectad med databasen/container. Jag har använt mig av den [här](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-get-started#GetSolution) guiden.
 
 ![Lägg till to-do item index](/assets/images/exitem2.png)
+
+För att fa fram alla item från databasen så har jag använt koden från [Codegrepper](https://www.codegrepper.com/code-examples/csharp/cosmos+db+get+all+items+in+container)
