@@ -13,7 +13,7 @@ Min applikation är en enkel to-do items verktyg som visar användaren sina to-d
 
 ![Applikationen](/assets/images/minpage.png)
 
-Index sidan har jag använt för att visa alla to-do items, den innehåller alltså get metoden. För att lägga till nya items så har jag skapat en ny razor page i ”Pages” för att ha put metoden. 
+Index sidan har jag använt för att visa alla to-do items, den innehåller alltså get metoden. För att lägga till nya items så har jag skapat en ny razor page i ”Pages” för att ha put metoden i. 
 
 ![Lägg till](/assets/images/additems.png)
 
