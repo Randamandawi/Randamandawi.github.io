@@ -49,3 +49,6 @@ Efter att applikationen var klar och jag hade testad båda get och put metoder d
  
  Till slut så har jag deployat docker image till Azure app genom Visual Studio med hjälpp av den [guiden](https://code.visualstudio.com/docs/containers/app-service)
 
+### Källor
+
+- [Youtube](https://www.youtube.com/watch?v=aP02__gMLtw)
