@@ -46,4 +46,6 @@ Koden till frontend
 Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR)
 
 ![ACR](/assets/images/acr.png)
+ 
+ Till slut så har jag deployat docker image till Azure app genom Visual Studio med hjälpp av den [guiden](https://code.visualstudio.com/docs/containers/app-service)
 
