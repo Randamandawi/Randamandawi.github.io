@@ -18,8 +18,6 @@ Index sidan har jag använt för att visa alla to-do items, den innehåller allt
 
 Efter att användaren har lagt till en ny item och klickar på Submit så blir hen omdirigerad till Index sidan där hen ser alla items inklusive den nya. 
 
-
-
 ![Lägg till to-do item](/assets/images/exitem.png)
 
 ![Lägg till to-do item index](/assets/images/exitem2.png)
