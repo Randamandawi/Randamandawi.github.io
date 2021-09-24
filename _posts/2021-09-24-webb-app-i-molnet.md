@@ -8,6 +8,8 @@ tags:
   - Razor Pages
   - ACR
 ---
+## Applikationen
+
 Min applikation är en enkel to-do items verktyg som visar användaren sina to-do items och det går att lägga till nya items. 
 
 ![Applikationen](/assets/images/minpage.png)
@@ -19,5 +21,12 @@ Index sidan har jag använt för att visa alla to-do items, den innehåller allt
 Efter att användaren har lagt till en ny item och klickar på Submit så blir hen omdirigerad till Index sidan där hen ser alla items inklusive den nya. 
 
 ![Lägg till to-do item](/assets/images/exitem.png)
+
+![Koden](/assets/images/indexcode.png)
+
+
+## Koden 
+
+I och med jag hade många problem med att få connection med databasen för förra uppgiften så har jag för det första tagit bort den gamla databasen och skapat en ny. Och för det andra så har jag gjort en ful lösning som på bilden nedan (speciellt rad 27 och 29) för att bli connectad med databasen/container. Jag har använt mig av den [här](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-get-started#GetSolution) guiden.
 
 ![Lägg till to-do item index](/assets/images/exitem2.png)
