@@ -27,7 +27,7 @@ Efter att användaren har lagt till en ny item och klickar på Submit så blir h
 
 ## Koden 
 
-I och med jag hade många problem med att få connection med databasen för förra uppgiften så har jag för det första tagit bort den gamla databasen och skapat en ny. Och för det andra så har jag gjort en ful lösning som på bilden nedan (speciellt rad 27 och 29) för att bli connectad med databasen/container. Jag har använt mig av den [här](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-get-started#GetSolution) guiden.
+I och med jag hade många problem med att få connection med databasen för förra uppgiften så har jag för det första tagit bort den gamla databasen och skapat en ny. Och för det andra så har jag gjort en ful lösning som på bilden nedan för att bli connectad med databasen/container. Jag har använt mig av den [här](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-get-started#GetSolution) guiden.
 
 ![Get metoden](/assets/images/indexcode.png)
 
