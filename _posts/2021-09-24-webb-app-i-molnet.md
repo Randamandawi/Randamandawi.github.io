@@ -8,7 +8,6 @@ tags:
   - Razor Pages
   - ACR
 ---
-## Applikationen
 
 Min applikation är en enkel to-do items verktyg som visar användaren sina to-do items och det går att lägga till nya items. 
 
