@@ -53,6 +53,17 @@ Efter att applikationen var klar och jag hade testad båda get och put metoder d
 
  ![Sida](/assets/images/mywebsite.png)
 
+## Kostnader 
+ Nästan ingen använadere
+
+![Låga kostnader](/assets/images/lowcost.png)
+
+Många användare
+
+![Höga kostnader](/assets/images/highcosts.png)
+
+
+
 ### Källor
 
 - [Youtube](https://www.youtube.com/watch?v=aP02__gMLtw)
