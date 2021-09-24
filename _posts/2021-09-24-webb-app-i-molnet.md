@@ -1,6 +1,6 @@
 ---
 title: "Webb applikationer i molnet"
-date: 2021-09-07T15:34:30-04:00
+date: 2021-09-24T15:34:30-04:00
 categories:
   - blog
 tags:
