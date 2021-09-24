@@ -42,3 +42,8 @@ Koden till frontend
 ![Frontend get](/assets/images/front.png)
 
 ![Frontend put](/assets/images/front2.png)
+
+Efter att applikationen var klar och jag hade testad båda get och put metoder då var dags för att skapa en dockerfile, bygga an image och pusha den till Azure Container Registry (ACR)
+
+![ACR](/assets/images/acr.png)
+
