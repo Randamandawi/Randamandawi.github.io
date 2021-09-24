@@ -10,14 +10,16 @@ tags:
 ---
 Min applikation är en enkel to-do items verktyg som visar användaren sina to-do items och det går att lägga till nya items. 
 
-[Applikationen](/assets/images/minpage.png)
+![Applikationen](/assets/images/minpage.png)
 
 Index sidan har jag använt för att visa alla to-do items, den innehåller alltså get metoden. För att lägga till nya items så har jag skapat en ny razor page i ”Pages” för att ha put metoden. 
 
-[Lägg till](/assets/images/additems.png)
+![Lägg till](/assets/images/additems.png)
 
 Efter att användaren har lagt till en ny item och klickar på Submit så blir hen omdirigerad till Index sidan där hen ser alla items inklusive den nya. 
 
-[Lägg till to-do item](/assets/images/exitem.png)
 
-[Lägg till to-do item index](/assets/images/exitem2.png)
+
+![Lägg till to-do item](/assets/images/exitem.png)
+
+![Lägg till to-do item index](/assets/images/exitem2.png)
