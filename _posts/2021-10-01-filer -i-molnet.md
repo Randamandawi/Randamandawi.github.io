@@ -18,7 +18,7 @@ Blobs som finns i min container
 
 Diagrammet visar hur data flyttar sig från applikationen till containern i Azure
 
-![Diagram](/assets/images/diagram.png)
+![Diagram](/assets/images/digram.png)
 
 Koden för att ladda upp filer
 
