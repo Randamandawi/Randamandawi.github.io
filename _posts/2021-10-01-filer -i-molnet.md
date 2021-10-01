@@ -43,3 +43,10 @@ Datakryptering i sin tur består av:
 * Kryptering av data i vila
 * Kryptering av data under överföring
 * Nyckel hantering med Key Vault
+
+### Källor
+- [Medium](https://medium.com/@rammonzito/azure-blob-storage-using-a-net-core-console-application-106a0c2e6de5)
+
+- [Cloudacademy](https://cloudacademy.com/blog/how-does-azure-encrypt-data/)
+
+- [Microsoft](https://docs.microsoft.com/en-us/javascript/api/@azure/storage-blob/containerclient?view=azure-node-latest)
