@@ -6,6 +6,7 @@ categories:
 tags:
   - Monitorering
   - Serilog
+  - Kusto
 ---
 
 Min applikation är en enkel to-do items verktyg som visar användaren sina to-do items och det går även att lägga till nya items. Mer information om applikationen finns [här](https://randamandawi.github.io/blog/webb-app-i-molnet/)
@@ -26,7 +27,7 @@ Har även lagt till .UseSerilog(); i CreateHostBuilder
 
 ### Kusto queries
 
-Första queryn tar fram alla Errors och Warnings i min applikation. Warnings är level 2 och Errors level 3. 
+Första queryn tar fram alla Errors och Warnings i min applikation. Warnings är level 2 och Errors level 3. Jag har en error som blir loggad när något går fel med att spara en to-do item till databasen. 
 
 ![Query](/assets/images/serilog5.png)
 
@@ -43,3 +44,11 @@ Det går även att göra queries på till exempel ”Client-Country/Region” f�
 ### Säkerhet
 
 Om jag skulle har haft inloggning i min applikation vilket innebär att endast rätt personer har tillgång till datat. Genom att ha en Warning loggning kan jag då se om en användare plötsligt befinner sig i ett annat land eller befinner sig i två länder samtidigt. 
+
+
+### Källor
+- [Serilog](https://serilog.net/)
+
+- [Coralogix](https://coralogix.com/blog/net-logging-best-practices-for-your-net-application/)
+
+- [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-5.0)
