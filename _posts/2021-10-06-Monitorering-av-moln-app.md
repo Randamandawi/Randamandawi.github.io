@@ -17,7 +17,7 @@ Min applikation är en enkel to-do items verktyg som visar användaren sina to-d
 
 ![Diagram](/assets/images/serilog2.png)
 
-För att implementera Serilog i min applikation så började jag med att ta hem de Nuget packages som behövdes och lägga till using. Serilog. I program.cs/main har jag lagt till kod som bilden nedan visar. Denna gången har jag valt att lägga InstrumentationKey i main istället för appsettings.json. För att få tillgång till min instrumentationsnyckel så har jag först skapat en ny application insights genom azure portalen.
+För att implementera Serilog i min applikation så började jag med att ta hem de Nuget packages som behövdes och lägga till using. Serilog. I program.cs/main har jag lagt till kod som bilden nedan visar. Denna gången har jag valt att lägga InstrumentationKey i main istället för appsettings.json som man borde göra. För att få tillgång till min instrumentationsnyckel så har jag först skapat en ny application insights genom azure portalen.
 
 ![MainMetoden](/assets/images/serilog3.png)
 
@@ -25,9 +25,10 @@ Har även lagt till .UseSerilog(); i CreateHostBuilder
 
 ![Confiq](/assets/images/serilog4.png)
 
+
 ### Kusto queries
 
-Första queryn tar fram alla Errors och Warnings i min applikation. Warnings är level 2 och Errors level 3. Jag har en error som blir loggad när något går fel med att spara en to-do item till databasen. 
+Första queryn tar fram alla Errors och Warnings i min applikation. Warnings är level 2 och Errors är level 3. Jag har en error som blir loggad när något går fel med att spara en to-do item till databasen. 
 
 ![Query](/assets/images/serilog5.png)
 
